@@ -1,5 +1,5 @@
 ---
-by: Cane Costello, Pictures by A. Saint-Charles
+by: Cane Costello, Pictures & A. Saint-Charles
 title: The Five Fingers of Death, Chicken
 ---
 
