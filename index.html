@@ -5,7 +5,7 @@ title: Home
 
 
 {% for post in site.posts %}
-	<article>
+	<article class="{{ post.width }}">
 		<h6>{{ post.by }} — {% assign d = post.date | date: "%-d"  %}
 		{{ post.date | date: "%B" }} 
 		{% case d %}

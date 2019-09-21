@@ -121,6 +121,8 @@
 			section
 			{
 				margin: 30px;
+				display: grid;
+				grid-template-columns: 1fr 1fr;
 			}
 			
 			article
@@ -134,6 +136,12 @@
 				border-bottom: 2px solid var(--foreground);
     			padding-bottom: 60px;
 				margin-bottom: 30px;
+			}
+			
+			article.full
+			{
+				grid-column-start: 0;
+				grid-column-end: 2;
 			}
 			
 			h6
@@ -172,6 +180,7 @@
 				opacity: 0.9;
 				box-sizing: border-box;
 				border-radius: 2px;
+				margin-left: -2rem;
 			}
 			
 			.flash img
