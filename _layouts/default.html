@@ -123,6 +123,7 @@
 				margin: 30px;
 				display: grid;
 				grid-template-columns: 1fr 1fr;
+				grid-column-gap: 30px;
 			}
 			
 			article
@@ -140,8 +141,8 @@
 			
 			article.full
 			{
-				grid-column-start: 0;
-				grid-column-end: 2;
+				grid-column-start: 1;
+				grid-column-end: 3;
 			}
 			
 			h6
@@ -186,6 +187,15 @@
 			.flash img
 			{
 				mix-blend-mode: luminosity;
+			}
+			
+			@media screen and (max-width: 640px)
+			{
+				article
+				{
+					grid-column-start: 1;
+					grid-column-end: 3;
+				}
 			}
 		</style>
 	</head>
