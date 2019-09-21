@@ -1,13 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no'>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    </head>
+		<title>The Report</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="https://guinane.xyz/The-Report/assets/apple-touch-icon.png">
+        <link rel="icon" href="https://guinane.xyz/The-Report/assets/favicon-32x32.png" type="image/png" />
+        <link id="favicon" rel="shortcut icon" type="image/png" href="https://guinane.xyz/The-Report/assets/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://guinane.xyz/The-Report/assets/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://guinane.xyz/The-Report/assets/favicon-16x16.png">
+		<link rel="mask-icon" href="https://guinane.xyz/The-Report/assets/safari-pinned-tab.svg" color="#b37978">
+		<meta name="theme-color" content="#b37978">
+        <meta name="author" content="Jack Guinane" />
+		<script>
+			function black()
+			{
+				document.documentElement.style.setProperty('--background', '#000000');
+				document.documentElement.style.setProperty('--foreground', '#ffffff');
+				document.body.className = "flash";
+			}
+			
+			function normal()
+			{
+				document.documentElement.style.setProperty('--background', '#dbb8b8');
+				document.documentElement.style.setProperty('--foreground', '#000000');
+				document.body.className = "";
+			}
+		</script>
+		<style>
+			@font-face 
+			{
+				font-family: 'body';
+				src: url('https://guinane.xyz/The-Report/assets/webfont-3.woff2') format('woff2'),
+				url('https://guinane.xyz/The-Report/assets/webfont-3.woff') format('woff'),
+				url('https://guinane.xyz/The-Report/assets/webfont-3.ttf') format('truetype');
+				font-weight: normal;
+				font-style: italic;
+			}
 
-    <body>
+			@font-face 
+			{
+				font-family: 'body';
+				src: url('https://guinane.xyz/The-Report/assets/webfont-2.woff2') format('woff2'),
+				url('https://guinane.xyz/The-Report/assets/webfont-2.woff') format('woff'),
+				url('https://guinane.xyz/The-Report/assets/webfont-2.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face 
+			{
+				font-family: 'title';
+				src: url('https://guinane.xyz/The-Report/assets/webfont-1.woff2') format('woff2'),
+				url('https://guinane.xyz/The-Report/assets/webfont-1.woff') format('woff'),
+				url('https://guinane.xyz/The-Report/assets/webfont-1.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
+			
+			:root
+			{
+				--foreground: #000000;
+				--background: #dbb8b8;
+			}
+			
+			html
+			{
+				background: #dbb8b8;
+				background: var(--background);
+				font-family: "body", serif;
+				font-size: 14px;
+				line-height: 1.7;
+				color: black;
+				color: var(--foreground);
+				text-rendering: optimizeLegibility; 
+				-webkit-font-smoothing: antialiased;    
+				-moz-osx-font-smoothing: grayscale;
+				-moz-font-feature-settings:"kern" 1;
+				-ms-font-feature-settings:"kern" 1;
+				-o-font-feature-settings:"kern" 1;
+				-webkit-font-feature-settings:"kern" 1;
+				font-feature-settings:"kern" 1;
+				font-kerning: normal; 
+			}
+			
+			body
+			{
+				max-width: 1400px;
+				margin: 8px auto;
+				opacity: 0.9;
+			}
+			
+			#logo
+			{
+				padding: 20px 0;
+				transform: translateX(-5px);
+				fill: black;
+				fill: var(--foreground);
+			}
+			
+			header
+			{
+				text-align: center;
+				padding: 0 30px;
+			}
+			
+			hr
+			{
+				border: none;
+				border-top: 2px solid black;
+				border-top: 2px solid var(--foreground);
+				border-bottom: 2px solid black;
+				border-bottom: 2px solid var(--foreground);
+				background: transparent;
+				height: 5px;
+			}
+			
+			section
+			{
+				margin: 30px;
+			}
+			
+			article
+			{
+				column-width: 240px;
+				column-gap: 15px;
+				background-color: #dbb8b8;
+				background-color: var(--background);
+				position: relative;
+				border-bottom: 2px solid black;
+				border-bottom: 2px solid var(--foreground);
+    			padding-bottom: 60px;
+				margin-bottom: 30px;
+			}
+			
+			h6
+			{
+				font-family: "Helvetica", "Helvetica Neue", "Arial", "Roboto", sans-serif;
+				column-span: all;
+			}
+			
+			h1
+			{
+				font-family: "title", serif;
+				font-weight: normal;
+				font-size: 4rem;
+				margin: 0 0 20px 0;
+				line-height: 1.1;
+				column-span: all;
+			}
+			
+			p
+			{
+				margin: 0;
+				text-indent: 2rem;
+			}
+			
+			p:first-of-type
+			{
+				text-indent: 0;
+			}
+			
+			img
+			{
+				mix-blend-mode: multiply;
+				mix-blend-mode: multiply;
+				max-width: 100%;
+				margin: 15px 0;
+				opacity: 0.9;
+				box-sizing: border-box;
+				border-radius: 2px;
+			}
+			
+			.flash img
+			{
+				mix-blend-mode: luminosity;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="40" height="60" viewBox="0 0 309.149 446.217" onmouseover="black();" onmouseleave="normal();">
+				<g transform="translate(-583 -746)">
+				<path id="Exclusion_1" data-name="Exclusion 1" d="M-1199.5,271a136.5,136.5,0,0,1-27.308-2.753,134.818,134.818,0,0,1-25.435-7.9,135.518,135.518,0,0,1-23.017-12.493,136.475,136.475,0,0,1-20.054-16.546,136.483,136.483,0,0,1-16.546-20.054,135.509,135.509,0,0,1-12.493-23.017,134.815,134.815,0,0,1-7.9-25.435A136.5,136.5,0,0,1-1335,135.5a136.5,136.5,0,0,1,2.753-27.308,134.813,134.813,0,0,1,7.9-25.435,135.507,135.507,0,0,1,12.493-23.017,136.483,136.483,0,0,1,16.546-20.054,136.475,136.475,0,0,1,20.054-16.546,135.518,135.518,0,0,1,23.017-12.493,134.815,134.815,0,0,1,25.435-7.9A136.5,136.5,0,0,1-1199.5,0a136.5,136.5,0,0,1,27.308,2.753,134.818,134.818,0,0,1,25.435,7.9,135.519,135.519,0,0,1,23.017,12.493,136.481,136.481,0,0,1,20.054,16.546,136.478,136.478,0,0,1,16.546,20.054,135.53,135.53,0,0,1,12.493,23.017,134.815,134.815,0,0,1,7.9,25.435A136.506,136.506,0,0,1-1064,135.5a136.5,136.5,0,0,1-2.753,27.308,134.815,134.815,0,0,1-7.9,25.435,135.522,135.522,0,0,1-12.493,23.017,136.473,136.473,0,0,1-16.546,20.054,136.484,136.484,0,0,1-20.054,16.546,135.519,135.519,0,0,1-23.017,12.493,134.821,134.821,0,0,1-25.435,7.9A136.5,136.5,0,0,1-1199.5,271Zm0-231a135.3,135.3,0,0,0-43.532,7.144,134.932,134.932,0,0,0-37.661,19.864,136.008,136.008,0,0,0-29.439,30.235A134.793,134.793,0,0,0-1329,135.5a134.8,134.8,0,0,0,18.866,38.256,136.009,136.009,0,0,0,29.439,30.235,134.934,134.934,0,0,0,37.661,19.865A135.3,135.3,0,0,0-1199.5,231a135.3,135.3,0,0,0,43.532-7.144,134.936,134.936,0,0,0,37.661-19.865,136.011,136.011,0,0,0,29.439-30.235A134.792,134.792,0,0,0-1070,135.5a134.792,134.792,0,0,0-18.866-38.257,136.01,136.01,0,0,0-29.439-30.235,134.934,134.934,0,0,0-37.661-19.864A135.3,135.3,0,0,0-1199.5,40Z" transform="translate(1918 746)"/>
+				<circle id="Ellipse_4" data-name="Ellipse 4" cx="79.5" cy="79.5" r="79.5" transform="translate(639 802)"/>
+				<rect id="Rectangle_5" data-name="Rectangle 5" width="20" height="263" transform="translate(583 920)"/>
+				<path id="Path_1" data-name="Path 1" d="M0,0H19.792V218l.165,10.168L0,218Z" transform="matrix(0.891, -0.454, 0.454, 0.891, 770.781, 988.918)"/>
+				<rect id="Rectangle_7" data-name="Rectangle 7" width="6" height="69" transform="translate(583 878)"/>
+				</g>
+			</svg>
+			<hr>
+		</header>
+		<section>
         {{ content }}
+		</section>
     </body>
 </html>

@@ -1,4 +1,5 @@
 ---
+layout: default
 by: Cane Costello, Pictures & A. Saint-Charles
 title: The Five Fingers of Death, Chicken
 ---
