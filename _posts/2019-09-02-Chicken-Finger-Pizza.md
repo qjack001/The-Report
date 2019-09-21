@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 by: Cane Costello, Pictures by A. Saint-Charles
 title: The Five Fingers of Death, Chicken
 ---
@@ -12,7 +12,7 @@ Kuznet’s abruptness may appear defensive amidst the sea of rumours lobbied aga
 
 The rumour began to surface shortly after Alec Thomson was witnessed up-chucking the pizza near the volleyball court. (Anonymous) critics have reportedly called the allegation “baseless,” however, citing Thomson’s almost predictable predisposition to vomiting.
 
-![chicken finger pizza](The-Report/images/k.jpg)
+![chicken finger pizza](/The-Report/images/k.jpg)
 
 When reached for comment, the school provided it’s all too familiar boilerplate: “The school cafeteria has passed repeated health inspection, and the recent string of food poisoning occurrences have no connection to the school whatsoever.” Unconvincing.
 
