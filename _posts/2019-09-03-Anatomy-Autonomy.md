@@ -9,7 +9,7 @@ Were a student to have an allergic reaction, the school would surely follow emer
 
 While some employees of the school have—somewhat mindbogglingly—contended such a basic notion (see: “Kuznet’s ‘Secret’”), dealing with the allergy is a response in which a majority of us can agree upon. No student would be blamed for their condition, and no teacher would deny the student the right to attend to their needs.
 
-I use this example to illustrate a point. An extreme to help illuminate a subtlety: when I need to pee, I should be allowed to.
+I use this example to illustrate a point. An extreme to help illuminate a subtlety: when I need to pee, I should be allowed to pee.
 
 Sure, it’s not *urgent*, I can “hold it,” but a bladder infection should not be the price paid for proper daily hydration. Nor should the humiliation of peeing oneself. Were it not a necessity I wouldn’t *want* to leave your *very interesting class*.
 
