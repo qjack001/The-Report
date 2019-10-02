@@ -1,7 +1,7 @@
 ---
 layout: post
 by: Cane Costello, Picture by A. Saint-Charles
-title: Kuznet's “Secret”
+title: Kuznet’s “Secret”
 width: half
 ---
 
